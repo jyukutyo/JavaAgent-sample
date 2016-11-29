@@ -1,0 +1,7 @@
+RULE hello world
+CLASS com.jyukutyo.Main
+METHOD main
+AT ENTRY
+IF TRUE
+  DO traceStack()
+ENDRULE
